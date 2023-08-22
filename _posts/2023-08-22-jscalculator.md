@@ -81,12 +81,17 @@ description: A working JavaScript calculator.
     </div>
   </div>
   <script>
+    // This line makes it so that the initial value of the calculator is BLANK.
     let displayValue = "";
+
+    // This is doing EXACTLY what it says it's doing. The function is appending the value that is clicked on the calculator to the display.
 
     function appendToDisplay(value) {
       displayValue += value;
       document.getElementById("display").value = displayValue;
     }
+
+    // This does the actual calculation. Then, the .toString line turns the result into a readable string that the user can see the answer through. 
 
     function calculate() {
       try {
@@ -98,7 +103,8 @@ description: A working JavaScript calculator.
     }
 
     function calculateTrig(operation) {
-      const angle = parseFloat(displayValue);
+      const angle = parseFloat(displayValue); // This is essentially making the angle as a floating point number. A floating point number is any sort of whole number that has a decimal point. Any angle can be utilized this way.
+      // This is making sure that the angle variable is a non-numeric value. The ! is a negation, so a not operation. So, this means, if it is NOT invalid, it carries out the following trig operations.
       if (!isNaN(angle)) {
         let result;
         switch (operation) {
