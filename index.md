@@ -4,7 +4,7 @@ title: Student Blog
 ---
 
 
-<center>Welcome.</center>
+<h1><center>Welcome.</center></h1>
 
 ![]({{site.baseurl}}/images/image0.png "Freeform")
 
