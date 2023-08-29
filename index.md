@@ -75,9 +75,6 @@
 
 <br>
 <br>
-
-<center><h1 class="life">As humans, we must learn to enjoy the little things in life. Cherish every moment and look to put smiles on the faces of people around you. In the grand scheme of things, one little event in your life isn't going to matter when you're living your last moments.</h1></center>
-
 <br>
 <br>
 
@@ -97,8 +94,6 @@
 
 <br>
 <br>
-
-<center><h2 class="life2">In CSA this year, I hope to learn a lot more about Java, agile methodology, and working better with my scrum team. I look to take on a greater role of involvement in curriculum development for future students and am sure I will have a great learning experience in the class.</h2></center> 
 
 </body>
 </html>
