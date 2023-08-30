@@ -70,7 +70,6 @@
 <body>
     <center><h1 class="main-title">Welcome to Vardaan's CSA Homepage.</h1></center>
 
-    <!-- Weekly Plans, Hacks, and Review Tickets Table -->
     <table class="weekly-table">
         <tr>
             <th>Week</th>
@@ -104,7 +103,13 @@
                 <a href="https://github.com/vardaansinha/vsstudent/issues/1">Review Ticket Week 1</a>
             </td>
         </tr>
-        <!-- Add more rows as needed -->
+        <tr>
+            <td>2</td>
+            <td>
+                <a href="">Week 2 Plans</a>
+            </td>
+            <td></td>
+            <td></td>
     </table>
 
     <div style="display: flex; align-items: center; justify-content: center;">
