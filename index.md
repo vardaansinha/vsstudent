@@ -78,31 +78,29 @@
             <th>Hacks</th>
             <th>Review Tickets</th>
         </tr>
-        <!-- Add your weekly data rows here -->
         <tr>
             <td>0</td>
             <td>Your plans for week 0</td>
-            <td>Your hacks for week 0</td>
+            <td>
+                <a href="https://vardaansinha.github.io/vsstudent/2023/08/22/installationhacks.html">Installation Hacks</a><br>
+                <a href="https://vardaansinha.github.io/vsstudent/2023/08/21/ImportanceofTools.html">Importance of Tools</a><br>
+                <a href="https://vardaansinha.github.io/vsstudent/2023/08/23/LinuxShellBash2_IPYNB_2_.html">Linux Shell Bash</a>
+            </td>
             <td>Your review tickets for week 0</td>
         </tr>
         <tr>
             <td>1</td>
             <td>Your plans for week 1</td>
-            <td>Your hacks for week 1</td>
+            <td>
+                <a href="https://vardaansinha.github.io/vsstudent/2023/08/22/JavaNotebookIntro_IPYNB_2_.html">Java Notebook Intro</a><br>
+                <a href="https://vardaansinha.github.io/vsstudent/2023/08/28/jsoutputjquery.html">JS Output jQuery</a><br>
+                <a href="https://vardaansinha.github.io/vsstudent/2023/08/28/jsinput.html">JS Input</a><br>
+                <a href="https://vardaansinha.github.io/vsstudent/2023/08/28/jsapi_IPYNB_2_.html">JS API</a><br>
+                <a href="https://vardaansinha.github.io/vsstudent/2023/08/29/javaconsolegames_IPYNB_2_.html">Java Console Games</a>
+            </td>
             <td>Your review tickets for week 1</td>
         </tr>
-        <tr>
-            <td>2</td>
-            <td>Your plans for week 2</td>
-            <td>Your hacks for week 2</td>
-            <td>Your review tickets for week 2</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Your plans for week 3</td>
-            <td>Your hacks for week 3</td>
-            <td>Your review tickets for week 3</td>
-        </tr>
+        <!-- Add more rows as needed -->
     </table>
 
     <div style="display: flex; align-items: center; justify-content: center;">
