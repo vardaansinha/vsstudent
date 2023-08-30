@@ -110,6 +110,7 @@
             </td>
             <td></td>
             <td></td>
+        </tr>
     </table>
 
     <div style="display: flex; align-items: center; justify-content: center;">
