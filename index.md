@@ -100,8 +100,9 @@
                 <a href="https://vardaansinha.github.io/vsstudent/2023/08/28/jsapi_IPYNB_2_.html">JS API</a><br>
                 <a href="https://vardaansinha.github.io/vsstudent/2023/08/29/javaconsolegames_IPYNB_2_.html">Java Console Games</a>
             </td>
-            <td>Your review tickets for week 1</td>
-                <a href="https://github.com/vardaansinha/vsstudent/issues/1">Review Ticket Week 1</a><br>
+            <td>Your review tickets for week 1
+                <a href="https://github.com/vardaansinha/vsstudent/issues/1">Review Ticket Week 1</a>
+            </td>
         </tr>
         <!-- Add more rows as needed -->
     </table>
