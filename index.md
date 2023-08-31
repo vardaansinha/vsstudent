@@ -75,7 +75,7 @@
             <th>Week</th>
             <th>Plans</th>
             <th>Hacks</th>
-            <th>Review Tickets</th>
+            <th>Review Tickets & Troubleshooting</th>
         </tr>
         <tr>
             <td>0</td>
@@ -98,6 +98,7 @@
                 <a href="https://vardaansinha.github.io/vsstudent/2023/08/28/jsinput.html">JS Input</a><br>
                 <a href="https://vardaansinha.github.io/vsstudent/2023/08/28/jsapi_IPYNB_2_.html">JS API</a><br>
                 <a href="https://vardaansinha.github.io/vsstudent/2023/08/29/javaconsolegames_IPYNB_2_.html">Java Console Games</a>
+                <a href="https://github.com/vardaansinha/vsstudent/issues/4">Troubleshooting for Week 1</a>
             </td>
             <td>
                 <a href="https://github.com/vardaansinha/vsstudent/issues/1">Review Ticket Week 1</a>
@@ -106,7 +107,7 @@
         <tr>
             <td>2</td>
             <td>
-                <a href="">Week 2 Plans</a>
+                <a href="https://github.com/vardaansinha/vsstudent/issues/3">Week 2 Plans</a>
             </td>
             <td></td>
             <td></td>
