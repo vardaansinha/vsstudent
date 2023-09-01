@@ -1,10 +1,12 @@
 ---
 toc: true
-comments: true
+comments: false
 layout: post
-title: VSCode, GitHub Pages Setup HACKS
-description: Vardaan's Hack Answers.
-courses: { csa: {week: 0} }
+title: Java's Hello
+description: The very first Java hacks of APCSA
+type: tangibles
+courses: { csa: {week: 1} }
+permalink: /java-hello
 ---
 
 **INSTALLATION HACKS**:
