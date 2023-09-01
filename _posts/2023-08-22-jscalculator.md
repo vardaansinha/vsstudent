@@ -4,6 +4,7 @@ comments: true
 layout: post
 title: JS Calculator
 description: A working JavaScript calculator.
+courses: { csa: {week: 1} }
 ---
 
 <html lang="en">

@@ -4,6 +4,7 @@ comments: true
 layout: post
 title: VSCode, GitHub Pages Setup HACKS
 description: Vardaan's Hack Answers.
+courses: { csa: {week: 0} }
 ---
 
 **INSTALLATION HACKS**:

@@ -3,6 +3,7 @@ toc: true
 comments: true
 layout: post
 title: JS Output with jQuery
+courses: { csa: {week: 2} }
 ---
 
 <html>

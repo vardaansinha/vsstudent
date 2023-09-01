@@ -4,6 +4,7 @@ comments: true
 layout: post
 title: Summer Work & Future CSA Plans
 description: Reflection
+courses: { csa: {week: 0} }
 ---
 
 

@@ -4,6 +4,7 @@ comments: true
 layout: post
 title: Importance of Tools
 description: Tools are the most important foundation of all our code.
+courses: { csa: {week: 0} }
 ---
 
 I love my tools because they are necessary to succeed in computer science.
