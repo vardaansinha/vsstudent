@@ -67,53 +67,6 @@
         }
     </style>
 </head>
-<body>
-    <center><h1 class="main-title">Welcome to Vardaan's CSA Homepage.</h1></center>
-
-    <table class="weekly-table">
-        <tr>
-            <th>Week</th>
-            <th>Plans</th>
-            <th>Hacks</th>
-            <th>Review Tickets & Troubleshooting</th>
-        </tr>
-        <tr>
-            <td>0</td>
-            <td>N/A</td>
-            <td>
-                <a href="https://vardaansinha.github.io/vsstudent/2023/08/22/installationhacks.html">Installation Hacks</a><br>
-                <a href="https://vardaansinha.github.io/vsstudent/2023/08/21/ImportanceofTools.html">Importance of Tools</a><br>
-                <a href="https://vardaansinha.github.io/vsstudent/2023/08/23/LinuxShellBash2_IPYNB_2_.html">Linux Shell Bash</a>
-            </td>
-            <td>N/A</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>
-                <a href="https://github.com/vardaansinha/vsstudent/issues/2">Week 1 Plans</a>
-            </td>
-            <td>
-                <a href="https://vardaansinha.github.io/vsstudent/2023/08/22/JavaNotebookIntro_IPYNB_2_.html">Java Notebook Intro</a><br>
-                <a href="https://vardaansinha.github.io/vsstudent/2023/08/28/jsoutputjquery.html">JS Output jQuery</a><br>
-                <a href="https://vardaansinha.github.io/vsstudent/2023/08/28/jsinput.html">JS Input</a><br>
-                <a href="https://vardaansinha.github.io/vsstudent/2023/08/28/jsapi_IPYNB_2_.html">JS API</a><br>
-                <a href="https://vardaansinha.github.io/vsstudent/2023/08/29/javaconsolegames_IPYNB_2_.html">Java Console Games</a>
-                <a href="https://github.com/vardaansinha/vsstudent/issues/4">Troubleshooting for Week 1</a>
-            </td>
-            <td>
-                <a href="https://github.com/vardaansinha/vsstudent/issues/1">Review Ticket Week 1</a>
-            </td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>
-                <a href="https://github.com/vardaansinha/vsstudent/issues/3">Week 2 Plans</a>
-            </td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-
     <div style="display: flex; align-items: center; justify-content: center;">
         <div style="flex: 1; text-align: right; padding-right: 20px;">
             <p class="quote">"I think sometimes in life the biggest challenges end up being the best things that happen in your life." - Tom Brady</p>
