@@ -5,8 +5,8 @@ layout: post
 title: Java's Hello
 description: The very first Java hacks of APCSA
 type: tangibles
+type: hacks
 courses: { csa: {week: 1} }
-permalink: /java-hello
 ---
 
 **INSTALLATION HACKS**:
