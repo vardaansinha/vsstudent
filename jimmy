@@ -1,0 +1,287 @@
+name = 'WinPR7'
+title = 'Windows Practice Round 7'
+user = 'Barca'
+os = 'Windows Server 2019'
+password = ''
+remote = "https://scoring.cyberaegis.tech"
+local = true
+version = '2.1.1'
+
+
+[[check]]
+message = 'FQ1 is correct'
+points = 7
+
+[[check.pass]]
+type='FileContains'
+path='C:\\Users\\Barca\\Desktop\\FQ1.txt'
+value='ANSWER: '
+
+
+[[check]]
+message = 'FQ2 is correct'
+points = 7
+
+[[check.pass]]
+type='FileContains'
+path='C:\\Users\\Barca\\Desktop\\FQ2.txt'
+value='ANSWER: '
+
+
+[[check]]
+message = 'FQ3 is correct'
+points = 7
+
+[[check.pass]]
+type='FileContains'
+path='C:\\Users\\Barca\\Desktop\\FQ3.txt'
+value='ANSWER: '
+
+
+[[check]]
+message = 'Unauthorized user Liverpool removed'
+points = 2
+
+[[check.pass]]
+type = 'UserExistsNot'
+user = 'Liverpool'
+
+
+
+[[check]]
+message = 'Chelsea is not a guest account'
+points = 2
+
+[[check.pass]]
+type = 'UserInGroupNot'
+user = 'Chelsea'
+group = 'Guests'	
+
+
+[[check]]
+message = 'Unauthorized share has been removed'
+points = 2
+
+[[check.pass]]
+type = 'ShareExistsNot'
+name = 'ChampionsLeague'
+
+
+[[check]]
+message = 'Defender Checks for Signatures Before Running Scans'
+points = 3
+	
+[[check.pass]]
+type = 'CommandContains'
+cmd = '(Get-MpPreference).CheckForSignaturesBeforeRunningScan'
+value = 'True'
+
+
+[[check]]
+message = 'Defender Intrusion Prevention System is Enabled'
+points = 3
+
+[[check.pass]]
+type = 'CommandContains'
+cmd = '(Get-MpPreference).DisableIntrusionPreventionSystem'
+value = 'False'
+
+
+[[check]]
+message = 'Defender Exclusion Removed'
+points = 3
+
+[[check.pass]]
+type = 'CommandContainsNot'
+cmd = '(Get-MpPreference) | select ExclusionExtension).ExclusionExtension'
+value = '.zip'
+
+
+[[check]]
+message = 'Firewall enabled on all profiles'
+points = 2
+
+[[check.pass]]
+type = 'FirewallUp'
+
+
+[[check]]
+message = 'Avast has been removed'
+points = 3
+
+[[check.pass]]
+type = 'ProgramInstalledNot'
+name = 'Avast Secure Browser'
+
+
+
+[[check]]
+message = 'Hash suite has been deleted'
+points = 3
+
+[[check.pass]]
+type = 'PathExistsNot'
+path = 'C:\\Windows\\System32\\Hash_Suite_Free_3_7.zip'
+
+
+[[check]]
+message = 'Domain controller: LDAP server signing requirements - Require Signing'
+points = 3
+
+[[check.pass]]
+type = 'SecurityPolicy'
+key = 'LDAPServerIntegrity'
+value = '2'
+
+
+[[check]]
+message = 'Unencrypted passwords are not sent to third-party SMB Servers'
+points = 3
+
+[[check.pass]]
+type = 'SecurityPolicy'
+key = 'EnablePlainTextPassword'
+value = '0'
+
+
+[[check]]
+message = 'Storage of passwords and credentials disabled for network authentication'
+points = 3
+
+[[check.pass]]
+type = 'SecurityPolicy'
+key = 'DisableDomainCreds'
+value = '1'
+
+
+[[check]]
+message = 'Remote Desktop Service is started and automatic'
+points = 3
+
+[[check.pass]]
+type = 'ServiceStartup'
+name = 'TermService'
+value = 'Automatic'
+
+[[check.pass]]
+type = 'ServiceUp'
+name = 'TermService'
+
+
+[[check]]
+message = 'TCP/IP NetBIOS Helper Service is stopped and disabled'
+points = 3
+
+[[check.pass]]
+type = 'ServiceStartup'
+name = 'lmhosts'
+value = 'Disabled'
+
+[[check.pass]]
+type = 'ServiceUpNot'
+name = 'lmhosts'
+
+
+[[check]]
+message = 'SMBv1 has been disabled'
+points = 3
+
+[[check.pass]]
+type='WindowsFeatureNot'
+name='SMB1Protocol'
+
+
+[[check]]
+message = 'RDP Network Level Authentication has been Enabled'
+points = 4
+
+[[check.pass]]
+type = 'RegistryKey'
+key = 'HKLM\\SYSTEM\\CurrentControlSet\\Control\\Terminal Server\\WinStations\\RDP-Tcp\\UserAuthentication'
+value = '1'
+
+
+[[check]]
+message = 'RDP requires secure RPC communications'
+points = 4
+
+[[check.pass]]
+type = 'RegistryKey'
+key = 'HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services\\fEncryptRPCTraffic'
+value = '1'
+
+
+[[check]]
+message = 'RDP must delete temporary folders upon a terminated session'
+points = 4
+
+[[check.pass]]
+type = 'RegistryKey'
+key = 'HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services\\DeleteTempDirsOnExit'
+value = '1'
+
+
+[[check]]
+message = 'Firefox updated'
+points = 3
+
+[[check.pass]]
+type = 'ProgramVersionNot'
+name = 'Firefox' 
+value = '97.0.1'
+
+
+[[check]]
+message = 'DEP Enabled for all executable files'
+points = 4
+
+[[check.pass]]
+type = 'CommandContains'
+cmd = 'bcdedit /enum'
+value = 'OptOut'
+
+
+[[check]]
+message = 'Windows SmartScreen has been enabled'
+points = 4
+
+[[check.pass]]
+type = 'RegistryKey'
+key = 'HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\System\\EnableSmartScreen'
+value = '1'
+
+
+[[check]]
+message = 'New user ManUnited added to FileZilla'
+points = 5
+
+[[check.pass]]
+type = 'FileContains'
+path = 'C:\\ProgramData\\filezilla-server\\users.xml'
+value = 'ManUnited' 
+
+
+[[check]]
+message = 'Autobans last for 3 hours'
+points = 5
+
+[[check.pass]]
+type = 'FileContains'
+path = 'C:\\ProgramData\\filezilla-server\\settings.xml'
+value = '<ban_duration>300000</ban_duration>'
+
+
+[[check]]
+message = 'FileZilla Server checks for updates automatically'
+points = 5
+
+[[check.pass]]
+type = 'FileContains'
+path = 'C:\\ProgramData\\filezilla-server\\settings.xml'
+value = '<frequency>5000</frequency>'
+
+
+
+
+
+
