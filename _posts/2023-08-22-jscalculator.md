@@ -5,7 +5,7 @@ layout: post
 title: JS Calculator
 description: A working JavaScript calculator.
 courses: { csa: {week: 1} }
-type: hacks
+type: tangibles
 ---
 
 <html lang="en">
