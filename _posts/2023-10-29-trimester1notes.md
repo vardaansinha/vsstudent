@@ -1,3 +1,13 @@
+---
+toc: true
+comments: true
+layout: post
+title: Units 2-8 Important Notes from Student Lessons
+courses: { csa: {week: 10} }
+type: tangibles
+---
+
+
 **HERE ARE ALL MY NOTES FROM ALL THE STUDENT LESSONS COMPILED INTO ONE MARKDOWN FILE**
 
 
