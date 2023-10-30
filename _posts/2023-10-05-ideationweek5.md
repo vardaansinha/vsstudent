@@ -43,5 +43,7 @@ Therefore, we decided that my role would be initially to help everyone establish
 
 <br>
 
-So, after Week 5 (the first week assigned to ideation) there was no working code. There was only an idea with models.
+So, after Week 5 (the first week assigned to ideation) there was no working code. There was only an idea with models, and it looked like this when the teacher key was used:
+
+![]({{site.baseurl}}/images/FeatureWeekFunctionality.png "Functionality Working Through Frontend")
 
