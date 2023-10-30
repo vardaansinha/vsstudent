@@ -27,8 +27,6 @@ However, we quickly learned that this idea was not sustainable, would be too har
 
 <br>
 
-![]({{site.baseurl}}/images/InitialIdeation2.png "FIRST PROGRESS ISSUE FOR CSCANVAS")
-
 <br>
 
 **IDEATION: STAGE 3**
