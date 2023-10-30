@@ -1,3 +1,12 @@
+---
+toc: true
+comments: true
+layout: post
+title: JWT & SPRING NOTES
+courses: { csa: {week: 8} }
+type: tangibles
+---
+
 **JWT (JSON Web Tokens)**
 
 **Components:**
