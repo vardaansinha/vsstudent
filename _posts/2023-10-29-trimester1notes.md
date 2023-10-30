@@ -108,7 +108,6 @@ type: tangibles
 <br>
 <br>
 
-Certainly! Here are descriptive and useful notes for each of the mentioned learning objectives in Unit 4:
 
 **UNIT 4 IMPORTANT NOTES:**
 
