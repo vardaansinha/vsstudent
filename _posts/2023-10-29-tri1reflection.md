@@ -20,8 +20,21 @@ type: tangibles
 
 **POSITIVE ACCOMPLISHMENTS**
 
+1. I think that I was a very useful member on the team. I actually did work for each live review and I contributed to team ideation and process. I helped create issues and review tickets, keep my team members and myself organized, and learn about different Java concepts from more experienced members like Rohin. 
+
+<br>
+<br>
+
+2. I think that the new things I learned from this trimester were very valuable and I am proud of myself for that. First of all, I learned more about JavaScript OOP during the first small project that we did. Along with Rohin, I created a linear regression model allowing for a user to predict stock prices based on a given input in a certain amount of time. I learned about CanvasJS, OOP, and greater code abstraction. Furthermore, I got a good introduction to Java. Spring is pretty complicated to learn, but I feel that I got a good background as to how the framework is organized and how to incorporate it into different types of projects. I didn't think that I would be able to understand any of it to be quite honest, but I was able to after a good amount of perseverance and teamwork. 
+
 
 **THINGS I INTEND TO LEARN MORE ABOUT IN FUTURE TRIMESTERS**
 
+1. In future trimesters, I hope to learn more about Spring and Java backend frameworks. Right now, I have a basic understanding of the things that I had to do as part of my feature on Spring - this included person authentication, JWT, and API Controllers. In the future trimesters, I hope to understand the framework as a whole. 
+
+2. In future trimesters, I also hope to better understand object-oriented programming in Java. Now that I have a foundational understanding of the concepts and all the units that are a part of the AP CSA curriculum, I want to dig deeper and figure out how to make my code more efficient. 
+
 
 **OPPORTUNITIES FOR GROWTH**
+
+1. One thing that I hope to improve on from this trimester
