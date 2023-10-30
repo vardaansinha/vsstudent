@@ -14,6 +14,9 @@ type: tangibles
 <br>
 <br>
 
+![]({{site.baseurl}}/images/teamwork.png "TEAMWORK")
+
+
 
 
 2. Trimester 1 of CSA has been all about Java. In AP CSP, the emphasis was on getting an introduction to Computer Science and basic coding frameworks via HTML, MD, JavaScript, and Python. Now, in AP CSA, I have started my journey into Java programming. I have learned a lot about the similarities and differences between Java and other languages, and have seen a lot of growth in my programming diversity now that Java is slowly being added to my toolkit. 
@@ -24,6 +27,9 @@ type: tangibles
 
 
 3. CORE MEMORY: The FRQ Mini-Lab was a pretty cool part of Trimester 1. I got to dive in first hand to how Arrays and ArrayLists operated and we were able to teach it to another group of people, gather diverse perspectives on the same types of FRQs/Topics, and give each other feedback. This was very useful, as I got to learn more about all the types of things I would see on the AP Exam. 
+
+![]({{site.baseurl}}/images/frqminilabs.png "FRQ")
+
 
 <br>
 <br>
@@ -49,6 +55,9 @@ type: tangibles
 **THINGS I INTEND TO LEARN MORE ABOUT IN FUTURE TRIMESTERS**
 
 1. In future trimesters, I hope to learn more about Spring and Java backend frameworks. Right now, I have a basic understanding of the things that I had to do as part of my feature on Spring - this included person authentication, JWT, and API Controllers. In the future trimesters, I hope to understand the framework as a whole. 
+
+![]({{site.baseurl}}/images/mvc.png "SPRING")
+
 
 <br>
 <br>
