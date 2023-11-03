@@ -74,3 +74,12 @@ type: tangibles
 **OPPORTUNITIES FOR GROWTH**
 
 1. One thing that I hope to improve on from this trimester is the amount of time I want to invest into going ABOVE AND BEYOND and learning about novel programming concepts that I can implement into projects. This trimester, though I have tried to go beyond the expectations unlike I did in CSP, there is certainly potential for me to do more research. Next trimester, since most of my college apps and such will be done, I will be able to grind out extra research and make projects/reviews even higher quality.
+
+<br>
+
+**TEAM REVIEWS EC**
+
+![]({{site.baseurl}}/images/r1.png "r1")
+![]({{site.baseurl}}/images/r2.png "r2")
+![]({{site.baseurl}}/images/r3.png "r3")
+
