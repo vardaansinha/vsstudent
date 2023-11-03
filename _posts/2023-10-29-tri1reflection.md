@@ -14,10 +14,6 @@ type: tangibles
 <br>
 <br>
 
-![]({{site.baseurl}}/images/teamwork.png "TEAMWORK")
-
-
-
 
 2. Trimester 1 of CSA has been all about Java. In AP CSP, the emphasis was on getting an introduction to Computer Science and basic coding frameworks via HTML, MD, JavaScript, and Python. Now, in AP CSA, I have started my journey into Java programming. I have learned a lot about the similarities and differences between Java and other languages, and have seen a lot of growth in my programming diversity now that Java is slowly being added to my toolkit. 
 
