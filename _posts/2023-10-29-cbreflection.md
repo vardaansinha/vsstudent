@@ -3,7 +3,7 @@ toc: true
 comments: true
 layout: post
 title: CollegeBoard 2014 MC
-courses: { csa: {week: 10} }
+courses: { csa: {week: 32} }
 type: tangibles
 ---
 
